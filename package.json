@@ -1,44 +1,44 @@
 {
-    "name": "angularapp",
-    "version": "0.0.0",
-    "description": "",
-    "scripts": {
-        "ng": "ng",
-        "start": "ng serve",
-        "build": "ng build",
-        "watch": "ng build --watch --configuration development",
-        "test": "ng test",
-        "format": "prettier --write \"src/**/*.ts\""
-    },
-    "private": true,
-    "dependencies": {
-        "@angular/animations": "14.2.6",
-        "@angular/common": "14.2.6",
-        "@angular/compiler": "14.2.6",
-        "@angular/core": "14.2.6",
-        "@angular/fire": "7.4.1",
-        "@angular/forms": "14.2.6",
-        "@angular/platform-browser": "14.2.6",
-        "@angular/platform-browser-dynamic": "14.2.6",
-        "@angular/router": "14.2.6",
-        "rxjs": "7.4.0",
-        "tslib": "2.3.0",
-        "zone.js": "0.11.4"
-    },
-    "devDependencies": {
-        "@angular-devkit/build-angular": "14.2.6",
-        "@angular/cli": "14.2.6",
-        "@angular/compiler-cli": "14.2.6",
-        "@types/jasmine": "3.10.0",
-        "@types/node": "12.11.1",
-        "jasmine-core": "3.10.0",
-        "karma": "6.3.0",
-        "karma-chrome-launcher": "3.1.0",
-        "karma-coverage": "2.1.0",
-        "karma-jasmine": "4.0.0",
-        "karma-jasmine-html-reporter": "1.7.0",
-        "prettier": "2.5.1",
-        "typescript": "4.8.4"
-    },
-    "packageManager": "pnpm@10.19.0+sha512.c9fc7236e92adf5c8af42fd5bf1612df99c2ceb62f27047032f4720b33f8eacdde311865e91c411f2774f618d82f320808ecb51718bfa82c060c4ba7c76a32b8"
+  "name": "angularapp",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "format": "prettier --write ."
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "14.2.6",
+    "@angular/common": "14.2.6",
+    "@angular/compiler": "14.2.6",
+    "@angular/core": "14.2.6",
+    "@angular/fire": "7.4.1",
+    "@angular/forms": "14.2.6",
+    "@angular/platform-browser": "14.2.6",
+    "@angular/platform-browser-dynamic": "14.2.6",
+    "@angular/router": "14.2.6",
+    "rxjs": "7.4.0",
+    "tslib": "2.3.0",
+    "zone.js": "0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "14.2.6",
+    "@angular/cli": "14.2.6",
+    "@angular/compiler-cli": "14.2.6",
+    "@types/jasmine": "3.10.0",
+    "@types/node": "12.11.1",
+    "jasmine-core": "3.10.0",
+    "karma": "6.3.0",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-coverage": "2.1.0",
+    "karma-jasmine": "4.0.0",
+    "karma-jasmine-html-reporter": "1.7.0",
+    "prettier": "2.5.1",
+    "typescript": "4.8.4"
+  },
+  "packageManager": "pnpm@10.19.0+sha512.c9fc7236e92adf5c8af42fd5bf1612df99c2ceb62f27047032f4720b33f8eacdde311865e91c411f2774f618d82f320808ecb51718bfa82c060c4ba7c76a32b8"
 }

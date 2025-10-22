@@ -1,50 +1,51 @@
 :root {
-    --color-main: #444;
-    --color-black: #000;
-    --color-black-01: #222;
-    --color-black-02: #666;
-    --color-black-03: #999;
-    --color-white: #fff;
-    --color-white-01: #fff;
-    --color-white-02: #ddd;
-    --color-white-03: #bbb;
-    --color-01: #faf6ee;
-    --color-02: #e9e5dd;
-    --color-04: #696464;
-    --color-05: #34495e;
-    --color-06: #06113c;
-    --color-07: #ff8c32;
-    --color-08: #fc8621;
-    --color-09: #d04925;
+  --color-main: #444;
+  --color-black: #000;
+  --color-black-01: #222;
+  --color-black-02: #666;
+  --color-black-03: #999;
+  --color-white: #fff;
+  --color-white-01: #fff;
+  --color-white-02: #ddd;
+  --color-white-03: #bbb;
+  --color-01: #faf6ee;
+  --color-02: #e9e5dd;
+  --color-04: #696464;
+  --color-05: #34495e;
+  --color-06: #06113c;
+  --color-07: #ff8c32;
+  --color-08: #fc8621;
+  --color-09: #d04925;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    height: 100%;
-    color: var(--color-main);
-    font: normal normal normal 16px/1.5 "Open Sans", sans-serif;
+html,
+body {
+  height: 100%;
+  color: var(--color-main);
+  font: normal normal normal 16px/1.5 'Open Sans', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #root {
-    height: 100%;
-    display: grid;
-    grid-template-rows: max-content auto max-content;
+  height: 100%;
+  display: grid;
+  grid-template-rows: max-content auto max-content;
 }
 
 .container {
-    max-width: 80vw;
-    width: 80vw;
+  max-width: 80vw;
+  width: 80vw;
 }

@@ -9,15 +9,8 @@ import { ContactComponent } from './pages/contact/contact.component'
 import { HomeComponent } from './pages/home/home.component'
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HeaderComponent,
-        FooterComponent,
-        HomeComponent,
-        AboutComponent,
-        ContactComponent,
-    ],
-    imports: [BrowserModule, AppRoutingModule],
-    bootstrap: [AppComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, AboutComponent, ContactComponent],
+  imports: [BrowserModule, AppRoutingModule],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

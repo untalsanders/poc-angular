@@ -1,11 +1,11 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-black-01);
-    color: var(--color-02);
-    padding: 0.9rem 1.25rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-black-01);
+  color: var(--color-02);
+  padding: 0.9rem 1.25rem;
 }
 
 a {
-    color: var(--color-07);
+  color: var(--color-07);
 }

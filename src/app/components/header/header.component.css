@@ -1,47 +1,47 @@
 a {
-    color: var(--color-07);
+  color: var(--color-07);
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header {
-    display: grid;
-    justify-content: center;
-    background-color: var(--color-black-01);
-    color: var(--color-white);
-    overflow-y: hidden;
+  display: grid;
+  justify-content: center;
+  background-color: var(--color-black-01);
+  color: var(--color-white);
+  overflow-y: hidden;
 }
 
-.header >.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    padding: 1rem 0.625rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.625rem;
 }
 
 .logo img {
-    height: 45px;
-    width: 45px;
+  height: 45px;
+  width: 45px;
 }
 
 .logo span {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 .menu a {
-    padding: 2.5rem 1.25rem;
+  padding: 2.5rem 1.25rem;
 }
 
 .menu a:hover {
-    background-color: #f94;
-    color: #222;
+  background-color: #f94;
+  color: #222;
 }
