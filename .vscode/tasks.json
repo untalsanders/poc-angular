@@ -5,7 +5,6 @@
       "label": "Run Script: start",
       "type": "npm",
       "script": "start",
-      "isBackground": true,
       "presentation": {
         "echo": true,
         "reveal": "always",
