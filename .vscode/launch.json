@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Debug",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "Run Script: start",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true
+    },
+  ]
+}
