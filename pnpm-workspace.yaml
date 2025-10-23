@@ -2,3 +2,4 @@ onlyBuiltDependencies:
   - esbuild
   - nice-napi
   - protobufjs
+saveExact: true
